@@ -7,5 +7,6 @@ class MyServer
     (Time.now.to_i % 2).zero? ?  ["<em>Hello</em>"] : ["<strong>Hello</strong>"]
   end
   def last_response
+    "Hello, my name is"
   end
 end
